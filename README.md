@@ -17,12 +17,6 @@ This app allows users to manage their daily tasks with features such as adding, 
 
 ---
 
-## 🖼️ Screenshot
-
-![todo-app-preview](preview.png) <!-- Add an actual screenshot to your repo for visual reference -->
-
----
-
 ## 🚀 Technologies Used
 
 - HTML5
