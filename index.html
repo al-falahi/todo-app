@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Todo-App</title>
+</head>
+<body>
+    <main>
+        <div class="container">
+            <h1 class="title">
+                Tasks
+            </h1>
+            <input type="text" id="task-input" class="input" placeholder="add task" aria-label="Add new task">
+            <button id="add-btn" class="btn">ADD</button>
+            <select class="filter" id="filter">
+                <option value="all">all</option>
+                <option value="completed">completed</option>
+                <option value="uncompleted">uncompleted</option>
+              </select>
+            <ul id="task-list" class="task-list"></ul>
+        </div>
+    </main>
+    <script src="./script.js"></script>
+</body>
+</html>
